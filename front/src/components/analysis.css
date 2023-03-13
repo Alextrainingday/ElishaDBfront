@@ -1,0 +1,38 @@
+.analysis-container {
+    background-color: white;
+    float: center;
+    padding-left: 20%;
+    width: 70%;
+    height: 100%;
+    text-align: left;
+}
+
+.analysis-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 520px;
+    gap: 20px;
+    align-items: left;
+}
+
+.analysis-details {
+    flex-direction: column;
+}
+
+.analysis-packet {
+    display: flex;
+    gap: 20px;
+
+}
+
+.analysis-packet img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.analysis-packet h2 {
+    margin: 0;
+}
